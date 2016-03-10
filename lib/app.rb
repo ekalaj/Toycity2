@@ -142,7 +142,7 @@ end
 def print_all_brands_data
 	print_lego_brand_data
 	$report_file.puts(new_line)
-	print_nano_brand_data
+	print_nano_brand
 end
 
 def print_lego_brand_data
@@ -153,7 +153,7 @@ def print_lego_brand_data
 	$report_file.puts("Total Revenue: $#{$lego[:revenue].round(2)}")
 end
 
-def print_nano_brand_data
+def print_nano_brand
 	$report_file.puts($nano_block[:brand])
 	$report_file.puts(line_separator)
 	$report_file.puts("Total Inventory: #{$nano_block[:count]}")
