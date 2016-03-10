@@ -1,0 +1,23 @@
+commit 7d33911765264d565a6297a54775d10071390a57
+Author: Ervin Kalaj <ekalaj@gmail.com>
+Date:   Wed Mar 9 21:46:43 2016 -0500
+
+    Testing
+
+commit e9b133eef03591772d7519f149408c295fd47254
+Author: Ervin Kalaj <ekalaj@gmail.com>
+Date:   Wed Mar 9 21:24:54 2016 -0500
+
+    Working Report
+
+commit 07c20e81d79065259222df30b051ec4e1fd9088d
+Author: Ervin Kalaj <ekalaj@gmail.com>
+Date:   Wed Mar 9 21:24:19 2016 -0500
+
+    Finished the app
+
+commit dc2f49ccc049bcc970ff1c5a23c18a9a829ab94b
+Author: Ervin Kalaj <ekalaj@gmail.com>
+Date:   Mon Feb 1 22:36:08 2016 -0500
+
+    Initital commit
