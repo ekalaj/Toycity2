@@ -32,28 +32,28 @@ def new_line
 	puts "\n"
 end
 
-def average(number)
-	average = number / 2
+def average(sales_price)
+	average = sales_price / 2
 	return "Average Sales Price: $#{average}"
 end
 
-def discount(num1, num2)
-	num3 = (num1 - num2) / num1 * 100
-	return "Average Discount: #{num3.round(2)}%"
+def discount(discount1, discount2)
+	average_discount = (discount1 - discount2) / discount1 * 100
+	return "Average Discount: #{average_discount.round(2)}%"
 end
 
-def avg_brand_price(num_value1, num_value2)
-	num_value3 = num_value1 / num_value2
-	return "Average Price: $#{num_value3.round(2)}"
+def avg_brand_price(brand_price1, brand_price2)
+	average_brand_price = brand_price1 / brand_price2
+	return "Average Price: $#{average_brand_price.round(2)}"
 end
 
-def average_lego_brand_price(number)
-	average = number / 2
+def average_lego_brand_price(sales_price)
+	average = sales_price / 2
 	return "Average Price: $#{average.round(2)}"
 end
 
-def average_nano_brand_price(number)
-	average = number / 1
+def average_nano_brand_price(sales_price)
+	average = sales_price / 1
 	return "Average Price: $#{average.round(2)}"
 end
 
