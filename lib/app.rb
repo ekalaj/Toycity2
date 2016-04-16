@@ -97,14 +97,19 @@ def products_section
 		retail_price = toy["full-price"].to_f
 		$report_file.puts "Retail Price: $#{toy["full-price"]}"
 		$report_file.puts "Total Purchases: #{toy["purchases"].count}"
-		total_sales = toy["purchases"][0]["price"].to_f + toy["purchases"][1]["price"].to_f
-		$report_file.puts "Total Sales: $#{total_sales}"
-		average_price = total_sales / 2
+		
+		
+	end
+end
+
+def total_sales(toy)
+    total_sales = toy["purchases"][0]["price"].to_f + toy["purchases"][1]["price"].to_f
+    $report_file.puts "Total Sales: #{total_sales}"
+    average_price = total_sales / 2
 		$report_file.puts average(total_sales)
 		$report_file.puts discount(retail_price, average_price)
 		$report_file.puts(new_line)
-	end
-end
+end  
 
 def global_brands_data
 	$lego = {brand: "",count: 0, price_sum: 0, sales: 0, revenue: 0}
